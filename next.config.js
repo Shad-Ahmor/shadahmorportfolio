@@ -30,7 +30,9 @@ const nextConfig = {
 		fileLoaderRule.exclude = /\.svg$/i;
 
 		return config;
-	}
+	},
+	distDir: 'build', // Add this line to change the output folder to 'build'
+
 };
 
 module.exports = nextConfig;
