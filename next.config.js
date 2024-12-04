@@ -2,7 +2,9 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ["res.cloudinary.com"]
+		domains: ["https://shadahmorportfolio.onrender.com/"],
+		unoptimized: true, // Disable image optimization
+
 	},
 	webpack(config) {
 		// Grab the existing rule that handles SVG imports
