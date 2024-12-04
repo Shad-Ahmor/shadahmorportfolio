@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+   assetPrefix: './',
+
   images: {
     domains: ["shadahmorportfolio.onrender.com"], // Correct domain format
     unoptimized: true, // Disable image optimization
